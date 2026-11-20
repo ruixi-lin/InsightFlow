@@ -1,0 +1,26 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Editor and system
+.DS_Store
+.vscode/
+.ipynb_checkpoints/
+
+# Ignore raw data by default
+data/raw/*
+!data/raw/.gitkeep
+!data/raw/sports_feedback.csv
+!data/raw/sample_feedback.csv
+
+# Ignore generated and labeled data
+data/processed/*
+data/labeled/*
+!data/processed/.gitkeep
+!data/labeled/.gitkeep
